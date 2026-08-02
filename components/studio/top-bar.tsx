@@ -82,12 +82,13 @@ export function TopBar(props: Props) {
         <Link href="/" className="flex items-center gap-2.5 sm:pr-2" aria-label="Back to dashboard">
           <span className="grid size-10 place-items-center overflow-hidden rounded-xl sm:size-11">
             <Image
-              src="/logo.webp"
+              src="/logo-mark.webp"
               alt="Vividraw logo"
               width={44}
               height={44}
               priority
-              className="size-10 scale-[1.6] object-contain sm:size-11"
+              unoptimized
+              className="size-10 object-contain sm:size-11"
             />
           </span>
           <span className="hidden sm:block">

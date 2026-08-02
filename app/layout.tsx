@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     'A vivid browser drawing studio with layers, expressive brushes, custom palettes, animated replay and PNG or WebP export.',
   authors: [{ name: 'Vividraw' }],
-  icons: { icon: '/logo.webp' },
+  icons: { icon: '/logo-mark.webp' },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

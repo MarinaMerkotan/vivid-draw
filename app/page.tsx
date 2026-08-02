@@ -49,12 +49,13 @@ export default function Dashboard() {
           <div className='flex items-center gap-3'>
             <span className='grid size-14 place-items-center overflow-hidden rounded-2xl'>
               <Image
-                src='/logo.webp'
+                src='/logo-mark.webp'
                 alt='Vividraw logo'
                 width={56}
                 height={56}
                 priority
-                className='size-14 scale-[1.6] object-contain'
+                unoptimized
+                className='size-14 object-contain'
               />
             </span>
             <BrandWordmark />
