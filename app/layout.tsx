@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { GoogleAnalytics } from '@/components/google-analytics';
 import { Toaster } from '@/components/ui/sonner';
 import './globals.css';
 
@@ -40,6 +41,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         {children}
         <Toaster position='bottom-center' />
+        <GoogleAnalytics />
       </body>
     </html>
   );
